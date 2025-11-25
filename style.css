@@ -102,17 +102,17 @@ header {
 .btn {
     display: inline-block;
     margin-top: 1rem;
-    background: #9b5de5;   /* purple theme */
+    background: linear-gradient(135deg, #a30dd9, #6e0f9d);
     color: #fff;
     padding: 0.75rem 2rem;
     margin-bottom: 40px;
     border-radius: 25px;
     text-decoration: none;
-    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    transition: background 0.5s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .btn:hover {
-    background: #7b3fbf;
+    background: linear-gradient(135deg, #ce54fa, #c553fe);
     box-shadow: 0 0 10px #9b5de5, /* glow */
                 0 0 5px rgba(0,0,0,0.8); /* dark outline */
     transform: translateY(-2px); /* subtle lift */
@@ -196,7 +196,7 @@ footer {
     display: inline-block;
     margin-top: 0.75rem;   /* adds space above button */
     padding: 0.4rem 0.9rem;
-    background: linear-gradient(135deg, #00c853, #b2ff59);
+    background: linear-gradient(135deg, #0dd962, #5b9d0f);
     color: #fff;
     font-size: 0.85rem;
     font-weight: 600;
@@ -217,7 +217,7 @@ footer {
     display: inline-block;
     margin-top: 0.75rem;   /* adds space above button */
     padding: 0.4rem 0.9rem;
-    background: linear-gradient(135deg, #0099c8, #5996ff);
+    background: linear-gradient(135deg, #07c7dc, #5996ff);
     color: #fff;
     font-size: 0.85rem;
     font-weight: 600;
@@ -393,6 +393,11 @@ footer {
 .homepage {
   background-image: url(assets/Mosai.png);
   background-size: cover;
+}
+
+.skills {
+  background-image: url(assets/Mosai.png);
+  background-size: contain;
 }
 
 .tod-homepage {
